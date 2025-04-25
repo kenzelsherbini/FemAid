@@ -19,7 +19,6 @@ font-weight: 700;
 font-style: normal;
 }
 
-
 .navbar {
   background-color: #fde5e5;
   color: white;
@@ -47,4 +46,13 @@ font-style: normal;
   border-color: #fff6d2;
   border-style: double;
   background: #fde5e5;
+}
+
+.shelter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('/imgs/cartoon.png')
+  color: white;
+  padding: 60px 20px;
 }
