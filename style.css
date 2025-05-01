@@ -21,38 +21,16 @@ font-style: normal;
 
 .navbar {
   background-color: #fde5e5;
-  color: white;
 }
-
 .hero {
-  background: url("/imgs/bg.jpg");
-  padding: 40px 20px;
-  text-align: center;
-}
-
-/*club features section */
-.features {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-.feature-box {
-  width: 200px;
-  padding: 20px;
-  border-radius: 10px;
-  color: #f0f4f8;
-  border-color: #fff6d2;
-  border-style: double;
-  background: #fde5e5;
-}
-
-.shelter {
+  background: url("/imgs/bg.jpg") no-repeat center center;
+  background-size: cover;
+  color: black;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('/imgs/cartoon.png')
-  color: white;
-  padding: 60px 20px;
+  text-align: center;
 }
+
+
