@@ -25,12 +25,24 @@ font-style: normal;
 .hero {
   background: url("/imgs/bg.jpg") no-repeat center center;
   background-size: cover;
-  color: black;
+  color: white;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
+.features, .cards-row, .shelter, .accomplishments {
+  padding: 60px 20px;
+}
+.feature-box, .card, .accomp-item {
+  background: #fde5e5;
+  border: 2px double #fff6d2;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
 
 
