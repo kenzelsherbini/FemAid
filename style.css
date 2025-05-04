@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: rgb(255, 247, 240);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -22,17 +22,60 @@ font-style: normal;
 /*fonts finish */
 
 .navbar {
-  background-color: #fde5e5;
+  background-color: #fecae2;
 }
+
+
+/*hero section and sizing */
 .hero {
-  background: url("/imgs/bg.jpg") no-repeat center center;
-  background-size: cover;
-  color: white;
+  position: relative;
   height: 100vh;
+  background: url('/imgs/hero.jpg') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-family: 'komet', serif;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 40px;
+  font-family: 'komet', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.slide-in-top{animation:slide-in-top 1.5s cubic-bezier(.25,.46,.45,.94)}
+ @keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+
+ .puff-in-center{animation:puff-in-center 1s cubic-bezier(.47,0.000,.745,.715) 1.5s both}
+@keyframes puff-in-center{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+.cards-row, .features, .shelter, .accomplishments {
+  padding: 60px 20px;
+}
+
+.feature-box, .card, .accomp-item {
+  background: #fde5e5;
+  border: 2px double #fff6d2;
+  border-radius: 10px;
+  padding: 20px;
+  color: #000;
+}
+.video {
+  background: #ddd;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 
