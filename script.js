@@ -18,4 +18,19 @@ function openPopup() {
   ];
   
   let quoteIndex = 0;
+
+  function displayQuote(index) {
+    const quoteBox = document.getElementById("quoteBox");
+    if (index >= 0 && index < quotes.length) {
+      quoteBox.textContent = quotes[index];
+    } else {
+      quoteBox.textContent = "No more quotes to show.";
+    }
+  }
+  
+  
+
+
+  
+  
   
