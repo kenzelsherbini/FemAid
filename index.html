@@ -114,11 +114,18 @@
             <div class="feature-box">
               <h2>About the Shelter</h2>
               <p>FemAid partners with local domestic violence shelters to provide resources, donations, and emotional support. Together, we work to help women and children find stability and healing in safe environments.</p>
-            
-<button type="button" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#learnMoreModal">
-  Learn More
-</button>
+              <button class="btn btn-outline-light" onclick="openPopup()">Learn More</button>
 
+              <div id="learnMorePopup" class="popup">
+                <div class="popup-content">
+                  <h5>About 180 Turning Lives Around</h5>
+                  <p><strong>180 Turning Lives Around</strong> is a nonprofit organization that helps survivors of domestic and sexual violence in Monmouth County, NJ.</p>
+                  <p> They provide 24/7 hotlines, safe housing, crisis counseling, and advocacy.</p>
+                  <p>180 also offers youth prevention programs and legal support.</p>
+                  <p>FemAid partners with 180 to provide essential items, spread awareness, and support healing for women and children.</p>
+                  <button class="btn btn-outline-light" onclick="closePopup()">Close</button>
+                </div>
+              </div>
 
 
 

@@ -1,6 +1,8 @@
-function toggleInfo() {
-    const info = document.getElementById("extraInfo");
-    info.style.display = (info.style.display === "none") ? "block" : "none";
+function openPopup() {
+    document.getElementById('learnMorePopup').style.display = 'flex';
   }
 
-  
+ 
+  function closePopup() {
+    document.getElementById('learnMorePopup').style.display = 'none';
+  }
