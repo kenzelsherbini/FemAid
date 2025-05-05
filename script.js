@@ -29,6 +29,17 @@ function openPopup() {
   }
   
   
+  function showNext() {
+    if (quoteIndex < quotes.length - 1) {
+      quoteIndex++;
+      displayQuote(quoteIndex);
+    } else {
+      alert("You've reached the last quote.");
+    }
+  }
+  
+ 
+  
 
 
   
