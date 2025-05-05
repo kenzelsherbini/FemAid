@@ -37,6 +37,17 @@ function openPopup() {
       alert("You've reached the last quote.");
     }
   }
+
+  function showPrevious() {
+    if (quoteIndex > 0) {
+      quoteIndex--;
+      displayQuote(quoteIndex);
+    } else {
+      alert("You're at the beginning.");
+    }
+  }
+  
+  displayQuote(quoteIndex);
   
  
   
