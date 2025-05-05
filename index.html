@@ -52,55 +52,59 @@
       </div>
     </div>
 
-    <!--cards-->
-    <div class="cards-row text-center" id="about">
-      <div class="container">
-        <h2 class="mb-4">Our Mission</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img src="/imgs/123.jpg" class="card-img-top" alt="Awareness">
-              <div class="card-body">
-                <p class="card-text">Raising awareness about domestic violence and educating students on ways to support survivors with empathy and advocacy.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img src="/imgs/give.jpg" class="card-img-top" alt="Donation Drive">
-              <div class="card-body">
-                <p class="card-text">Running donation drives to collect essential items like toiletries, clothes, and care packages for women in shelters.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img src="/imgs/bg.jpg" class="card-img-top" alt="Support Programs">
-              <div class="card-body">
-                <p class="card-text">Creating support programs that foster empowerment, healing, and long-term recovery for survivors of domestic violence.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!--feature cards-->
-    <div class="features text-center">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="feature-box">Monthly meetings focused on education, awareness, and planning impactful initiatives.</div>
+<section class="cards-row text-center py-5" id="about">
+  <div class="container">
+    <h2 class="mb-5 fw-bold text-white">Our Mission</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg border-0 rounded-4">
+          <img src="/imgs/123.jpg" class="card-img-top rounded-top-4" alt="Awareness">
+          <div class="card-body bg-dark text-white rounded-bottom-4">
+            <p class="card-text">Raising awareness about domestic violence and educating students on ways to support survivors with empathy and advocacy.</p>
           </div>
-          <div class="col-md-4">
-            <div class="feature-box">Volunteer events and outreach opportunities to directly assist local shelters.</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg border-0 rounded-4">
+          <img src="/imgs/give.jpg" class="card-img-top rounded-top-4" alt="Donation Drive">
+          <div class="card-body bg-dark text-white rounded-bottom-4">
+            <p class="card-text">Running donation drives to collect essential items like toiletries, clothes, and care packages for women in shelters.</p>
           </div>
-          <div class="col-md-4">
-            <div class="feature-box">Student-led campaigns to amplify survivor voices and advocate for change.</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg border-0 rounded-4">
+          <img src="/imgs/bg.jpg" class="card-img-top rounded-top-4" alt="Support Programs">
+          <div class="card-body bg-dark text-white rounded-bottom-4">
+            <p class="card-text">Creating support programs that foster empowerment, healing, and long-term recovery for survivors of domestic violence.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<div class="my-5">
+  <hr class="gradient-separator mx-auto text-white">
+</div>
+
+<section class="features text-center py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="feature-box p-4 bg-dark text-white rounded-4 shadow-sm h-100"> Monthly meetings focused on education, awareness, and planning impactful initiatives.</div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box p-4 bg-dark text-white rounded-4 shadow-sm h-100">Volunteer events and outreach opportunities to directly assist local shelters.</div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box p-4 bg-dark text-white rounded-4 shadow-sm h-100">Student-led campaigns to amplify survivor voices and advocate for change.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!--shelter hero section-->
     <div class="shelter d-flex align-items-center" id="shelter" style="background: url('/imgs/bg.jpg') center/cover no-repeat;">
@@ -110,10 +114,14 @@
             <div class="feature-box">
               <h2>About the Shelter</h2>
               <p>FemAid partners with local domestic violence shelters to provide resources, donations, and emotional support. Together, we work to help women and children find stability and healing in safe environments.</p>
-              <button class="btn btn-light mt-3" onclick="toggleInfo()">Learn More</button>
-<div id="extraInfo" style="display: none;" class="text-white mt-2">
-  FemAid also hosts speaker events and runs peer education programs.
-</div>
+            
+<button type="button" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#learnMoreModal">
+  Learn More
+</button>
+
+
+
+
             </div>
           </div>
           <div class="col-md-6">
@@ -142,6 +150,8 @@
         </div>
       </div>
     </div>
+
+    
 
     <footer class="text-center p-4 bg-dark mt-5 text-white" >
       <p class="mb-0">© 2025 FemAid Club | Marlboro High School</p>
