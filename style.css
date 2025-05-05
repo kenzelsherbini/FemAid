@@ -139,4 +139,42 @@ font-style: normal;
 }
 
 
+/* Quiz Section Styling */
+.quiz {
+  background-color: #313131;
+  color: white;
+  padding: 50px 0;
+}
+
+.quiz h2 {
+  font-size: 2.5rem;
+}
+
+.quiz .question {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #757575;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.quiz .question h4 {
+  font-size: 1.5rem;
+}
+
+.quiz label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.quiz button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+}
+
+#quizResult {
+  margin-top: 30px;
+}
 
