@@ -65,7 +65,7 @@ font-style: normal;
 .hero {
   position: relative;
   height: 450px;
-  background: url('/imgs/hero.png') center center / cover no-repeat;
+  background: url('imgs/hero.png') center center / cover no-repeat;
   display: flex;
   align-items: center;
   color: black;
@@ -96,6 +96,10 @@ font-style: normal;
 
 .cards-row, .features, .shelter, .accomplishments {
   padding: 60px 20px;
+}
+
+.shelter {
+  background: url('imgs/bg.jpg') center/cover no-repeat;
 }
 
 .feature-box, .card, .accomp-item {
