@@ -50,6 +50,4 @@ function openPopup() {
     }
   }
   
-  // Display the first quote as soon as the script loads
-  displayQuote(quoteIndex);
   
